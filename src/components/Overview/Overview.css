@@ -1,0 +1,27 @@
+.overview {
+  padding: 20px;
+}
+
+.tabTitle {
+  font-size: 12px;
+  font-family: "Consolas";
+  margin-bottom: 20px;
+}
+
+.home__bodyTabsBox {
+  margin-top: 20px;
+  display: flex;
+  /* flex: 1; */
+  flex-direction: column;
+  border: 1px solid rgba(48, 54, 61, 0.3);
+  border-radius: 6px;
+}
+
+.home__bodyTabsBox-dark {
+  border: 1px solid rgba(48, 54, 61, 1);
+}
+
+.tabBody {
+  display: flex;
+  flex-direction: column;
+}

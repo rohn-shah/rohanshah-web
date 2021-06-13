@@ -1,0 +1,23 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.home__bodyTabsBox {
+  padding: 20px;
+  display: flex;
+  /* flex: 1 1 100%; */
+  flex-direction: column;
+  border: 1px solid rgba(48, 54, 61, 0.3);
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.home__bodyTabsBox-half {
+  flex: 1 1 45%;
+}
+
+.home__bodyTabsBox-dark {
+  border: 1px solid rgba(48, 54, 61, 1);
+}
