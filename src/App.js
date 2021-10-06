@@ -8,6 +8,7 @@ import "./App.css";
 import { CssBaseline } from "@material-ui/core";
 
 function App() {
+  console.log("Testong branch");
   const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)").matches; // System's theme
 
   // Darkmode and theme modification
