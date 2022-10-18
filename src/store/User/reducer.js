@@ -2,7 +2,7 @@ import {
   FETCH_USER_START,
   FETCH_USER_COMPLETE,
   FETCH_USER_ERROR,
-} from "./types";
+} from './types';
 
 export const userReducer = (state = {}, action) => {
   switch (action.type) {

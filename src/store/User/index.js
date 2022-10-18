@@ -1,3 +1,3 @@
-import UserProvider from "./action";
+import UserProvider from './action';
 
 export default UserProvider;

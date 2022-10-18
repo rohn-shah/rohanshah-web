@@ -1,16 +1,16 @@
-import { Avatar, Link, makeStyles, Typography } from "@material-ui/core";
-import React, { useContext } from "react";
-import { UserContext } from "../../store/User/action";
-import { BiBuildings } from "react-icons/bi";
-import { HiOutlineDocumentDownload, HiOutlineMail } from "react-icons/hi";
-import { IoLogoGithub } from "react-icons/io";
+import { Avatar, Link, makeStyles, Typography } from '@material-ui/core';
+import React, { useContext } from 'react';
+import { UserContext } from '../../store/User/action';
+import { BiBuildings } from 'react-icons/bi';
+import { HiOutlineDocumentDownload, HiOutlineMail } from 'react-icons/hi';
+import { IoLogoGithub } from 'react-icons/io';
 import {
   TiLocationOutline,
   TiSocialTwitter,
   TiSocialLinkedin,
-} from "react-icons/ti";
+} from 'react-icons/ti';
 
-import "./Sidebar.css";
+import './Sidebar.css';
 
 const useStyles = makeStyles((theme) => ({
   large: {
@@ -18,23 +18,23 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(32),
   },
   loginText: {
-    color: "#8b949e",
+    color: '#8b949e',
   },
   iconColor: {
-    color: "grey",
+    color: 'grey',
   },
   iconColorDark: {
-    color: "#8b949e",
+    color: '#8b949e',
   },
   detailItem: {
-    fontSize: "small",
+    fontSize: 'small',
   },
   link: {
-    textDecoration: "none",
-    color: "inherit",
-    fontSize: "small",
-    "&:hover": {
-      color: "#58a6ff",
+    textDecoration: 'none',
+    color: 'inherit',
+    fontSize: 'small',
+    '&:hover': {
+      color: '#58a6ff',
     },
   },
 }));
