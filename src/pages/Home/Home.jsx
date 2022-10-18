@@ -67,15 +67,23 @@ function Home({ darkState, toggleDarkMode }) {
   const tabs = [
     {
       title: "overview",
-      icon: <IoBookOutline className={styles.tabTitleLogo} />,
+      icon: <IoBookOutline className={styles.tabTitleLogo}  id={'overview'}/>,
     },
     {
       title: "projects",
-      icon: <AiOutlineProject className={styles.tabTitleLogo} />,
+      icon: <AiOutlineProject className={styles.tabTitleLogo}  id={'projects'}/>,
     },
     {
       title: "timeline",
-      icon: <MdTimeline className={styles.tabTitleLogo} />,
+      icon: <MdTimeline className={styles.tabTitleLogo}  id={'timeline'}/>,
+    },
+    {
+      title: "reports",
+      icon: <MdTimeline className={styles.tabTitleLogo}  id={'reports'}/>,
+    },
+    {
+      title: "contact us",
+      icon: <MdTimeline className={styles.tabTitleLogo} id={'contact-us'}/>,
     },
   ];
 
