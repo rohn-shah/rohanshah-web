@@ -1,35 +1,35 @@
-import React from "react";
+import React from 'react';
 import {
   AppBar,
   Avatar,
   makeStyles,
   Toolbar,
   Typography,
-} from "@material-ui/core";
-import DarkModeToggle from "react-dark-mode-toggle";
-import "./Header.css";
+} from '@material-ui/core';
+import DarkModeToggle from 'react-dark-mode-toggle';
+import './Header.css';
 
 const useStyles = makeStyles({
   darkMode: {
-    backgroundColor: "#2C333A",
+    backgroundColor: '#2C333A',
   },
   lightMode: {
-    backgroundColor: "#25282E",
+    backgroundColor: '#25282E',
   },
   toolbar: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    width: "90%",
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '90%',
   },
   appbar: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   logo: {
-    fontSize: "30px",
-    marginRight: "15px",
+    fontSize: '30px',
+    marginRight: '15px',
   },
 });
 

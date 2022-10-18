@@ -1,23 +1,23 @@
-import { Link, makeStyles, Typography } from "@material-ui/core";
-import React from "react";
-import "./Overview.css";
+import { Link, makeStyles, Typography } from '@material-ui/core';
+import React from 'react';
+import './Overview.css';
 
 const useStyles = makeStyles((theme) => ({
   link: {
-    textDecoration: "none",
-    color: "inherit",
-    fontSize: "small",
-    "&:hover": {
-      color: "#58a6ff",
-      textDecoration: "none",
+    textDecoration: 'none',
+    color: 'inherit',
+    fontSize: 'small',
+    '&:hover': {
+      color: '#58a6ff',
+      textDecoration: 'none',
     },
   },
   description: {
-    marginTop: "30px",
-    fontSize: "medium",
-    fontWeight: "light",
-    justifyContent: "center",
-    display: "flex",
+    marginTop: '30px',
+    fontSize: 'medium',
+    fontWeight: 'light',
+    justifyContent: 'center',
+    display: 'flex',
   },
 }));
 
@@ -27,7 +27,7 @@ function Overview({ darkState }) {
   return (
     <div
       className={`overview home__bodyTabsBox ${
-        darkState ? " home__bodyTabsBox-dark" : ""
+        darkState ? ' home__bodyTabsBox-dark' : ''
       }`}
     >
       <span className="tabTitle">
@@ -38,13 +38,13 @@ function Overview({ darkState }) {
           rel="noreferrer"
         >
           rohanshah945
-        </Link>{" "}
+        </Link>{' '}
         / README.md
       </span>
       <div className="tabBody">
         <Typography variant="h6" component="h1">
-          {" "}
-          Hi, there! 👋{" "}
+          {' '}
+          Hi, there! 👋{' '}
         </Typography>
         <Typography
           className={styles.description}
@@ -55,7 +55,7 @@ function Overview({ darkState }) {
           India. I like to experiment with different JavaScript Libraries to
           build something innovative.
         </Typography>
-        <ul style={{ margin: "20px" }}>
+        <ul style={{ margin: '20px' }}>
           <li>
             <Typography>
               🔭 I’m working on cool projects with ReactJS.
@@ -76,15 +76,15 @@ function Overview({ darkState }) {
           </li>
           <li>
             <Typography>
-              📫 How to reach me:{" "}
+              📫 How to reach me:{' '}
               <Link
                 href="http://www.twitter.com/rohn_shah"
                 target="_blank"
                 rel="noreferrer"
               >
                 @rohn_shah
-              </Link>{" "}
-              or{" "}
+              </Link>{' '}
+              or{' '}
               <Link
                 href="mailto:rohanshah945@gmail.com"
                 target="_blank"

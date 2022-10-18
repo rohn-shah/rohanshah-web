@@ -1,12 +1,12 @@
-import React, { createContext, useEffect, useReducer } from "react";
-import { userReducer } from "./reducer";
-import PropTypes from "prop-types";
+import React, { createContext, useEffect, useReducer } from 'react';
+import { userReducer } from './reducer';
+import PropTypes from 'prop-types';
 import {
   FETCH_USER_START,
   FETCH_USER_COMPLETE,
   FETCH_USER_ERROR,
-} from "./types";
-import { fetchUserData } from "../../apis/data";
+} from './types';
+import { fetchUserData } from '../../apis/data';
 
 export const UserContext = createContext();
 
@@ -20,7 +20,7 @@ const UserProvider = (props) => {
     userDispatch({
       type: FETCH_USER_START,
     });
-    fetchUserData("rohanshah945")
+    fetchUserData('rohanshah945')
       .then((response) => {
         userDispatch({
           type: FETCH_USER_COMPLETE,
