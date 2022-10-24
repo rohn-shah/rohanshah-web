@@ -5,6 +5,7 @@ import Sidebar from '../../components/Sidebar/Sidebar';
 import { IoBookOutline } from 'react-icons/io5';
 import { AiOutlineProject } from 'react-icons/ai';
 import { MdTimeline } from 'react-icons/md';
+import { SiAboutdotme } from 'react-icons/si';
 import './Home.css';
 import Overview from '../../components/Overview/Overview';
 import Timeline from '../../components/Timeline/Timeline';
@@ -86,6 +87,10 @@ function Home({ darkState, toggleDarkMode }) {
     {
       title: 'contact us',
       icon: <MdTimeline className={styles.tabTitleLogo} id={'contact-us'} />,
+    },
+    {
+      title: 'about',
+      icon: <SiAboutdotme className={styles.tabTitleLogo} id={'about'} />,
     },
   ];
 
