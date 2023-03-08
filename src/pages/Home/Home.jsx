@@ -80,18 +80,6 @@ function Home({ darkState, toggleDarkMode }) {
       title: 'timeline',
       icon: <MdTimeline className={styles.tabTitleLogo} id={'timeline'} />,
     },
-    {
-      title: 'reports',
-      icon: <MdTimeline className={styles.tabTitleLogo} id={'reports'} />,
-    },
-    {
-      title: 'contact us',
-      icon: <MdTimeline className={styles.tabTitleLogo} id={'contact-us'} />,
-    },
-    {
-      title: 'about',
-      icon: <SiAboutdotme className={styles.tabTitleLogo} id={'about'} />,
-    },
   ];
 
   const handleChange = (event, newValue) => {
