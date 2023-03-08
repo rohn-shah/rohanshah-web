@@ -46,7 +46,7 @@ function Projects({ darkState }) {
     {
       name: 'Calibration as a Service',
       description:
-        'This project includes two portals; Admin Dashboard for managing the roles & permissions and CaaS System for displaying the Risk analysis with different models and factors using Charts and Graphs.',
+        'This project includes two portals; Admin Dashboard for managing the roles & permissions and CaaS System for displaying the Risk analysis with different models and factors using graphical elements such as Charts and Graphs.',
       duration: 'Sep, 2020 - Present',
       teamsize: '3',
       techStack: 'MERN Stack, GoJS, D3JS',
@@ -65,10 +65,19 @@ function Projects({ darkState }) {
       name: 'Petopartner',
       description:
         'Petopartner is a social networking platform that allows a pet parent to find friends for their pets. It also has a blog section that helps users to get the blogs and articles about their pet.',
-      duration: 'Mar, 2021 - Present',
+      duration: 'Mar, 2021 - Mar, 2021',
       teamsize: '2',
       techStack: 'MERN Stack',
       html_url: 'https://petopartner-fe.vercel.app/',
+    },
+    {
+      name: 'Buy the best',
+      description:
+        'Buythebest is a ecommerce platform that allows a customer purchase items online. The main purpose of this application is to provide a small demo application for MERN Stack beginer so that they can have a basic idea of MERN Stack application structure.',
+      duration: 'Mar, 2022 - Mar, 2022',
+      teamsize: '1',
+      techStack: 'MERN Stack',
+      html_url: 'https://buythebest-fe.vercel.app/',
     },
   ];
 

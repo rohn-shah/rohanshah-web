@@ -37,7 +37,7 @@ function Jurney() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="subtitle1" component="h1">
-              <strong> Jr. Front End Developer </strong>
+              <strong> Full Stack / MERN Stack Developer </strong>
             </Typography>
             <Typography variant="body2">200OK Solutions</Typography>
             <Typography variant="body2">Ahmedabad</Typography>
