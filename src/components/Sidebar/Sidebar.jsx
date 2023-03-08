@@ -146,7 +146,7 @@ function Sidebar({ darkState }) {
             className={darkState ? styles.iconColorDark : styles.iconColor}
           />
           <Link
-            href={`https://drive.google.com/file/d/16S-vbJKdg2e5srCHstqdVo5HauIwYwk5/view?usp=sharing`}
+            href={`https://drive.google.com/file/d/1-PtkD7LK_pcnBn-dQsKitFGcUxv0X5y2/view?usp=sharing`}
             target="_blank"
             rel="noreferrer"
             className={styles.link}
